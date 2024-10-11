@@ -2,8 +2,8 @@
 import { defineModel, ref, onMounted } from 'vue';
 
 const phoneNumber = defineModel<string>({ required: true });
-const formatedPhoneNumber = ref('');
-const placeholder = ref('');
+const formatedPhoneNumber = ref<string>('');
+const placeholder = ref<string>('');
 
 const placeholders: Record<string, string> = {
     'en-US': '(123) 456-7890'
