@@ -1,5 +1,12 @@
 # 12go-test
 
+src/components/PhoneInput.vue - [Phone input component](src/components/PhoneInput.vue)
+
+src/components/__tests__/PhoneInput.spec.ts - [Phone input component tests](src/components/__tests__/PhoneInput.spec.ts)
+
+src/views/Page.vue - [Page with phone input](src/views/Page.vue)
+
+
 ## Project Setup
 
 ```sh

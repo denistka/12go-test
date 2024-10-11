@@ -8,7 +8,6 @@ const phoneNumber = ref<string>('');
 <template>
   <div class="page">
     <PhoneInput v-model="phoneNumber"/>
-    <h1>Result: {{ phoneNumber }}</h1>
   </div>
 </template>
 
